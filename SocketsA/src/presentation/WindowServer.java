@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import logic.Concert;
-
+ 
 
 public class WindowServer extends JFrame{
 
