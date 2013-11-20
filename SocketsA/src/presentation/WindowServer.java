@@ -24,9 +24,7 @@ public class WindowServer extends JFrame{
 	private JButton btnEstatistics;//Boton para ver estadisticas
 	
 	public WindowServer(){
-		
-		
-		
+			
 		
 		super("SERVIDOR CONCIERTOS");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
