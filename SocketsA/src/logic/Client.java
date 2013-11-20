@@ -18,8 +18,8 @@ public class Client implements Runnable{
 	private boolean stop;
 	private Thread thread;
 	private int option;
-	
-	/**
+	     
+	/**,ñ,klpkmok
 	 * 
 	 * Constructor de la clase Conexion.java.
 	 */
