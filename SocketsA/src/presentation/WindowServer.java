@@ -9,7 +9,6 @@ import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
@@ -23,9 +22,11 @@ public class WindowServer extends JFrame{
 	private JButton btnInitServer;//Boton para iniciar servidor
 	private JButton btnAddConcert;//Boton para agregar concierto
 	private JButton btnEstatistics;//Boton para ver estadisticas
-	private JLabel lSongRe;//Etiqueta de canciones recomendadas
 	
 	public WindowServer(){
+		
+		
+		
 		
 		super("SERVIDOR CONCIERTOS");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -39,7 +40,6 @@ public class WindowServer extends JFrame{
 		btnInitServer = new JButton("Iniciar Servidor");
 		btnAddConcert = new JButton("Agregar Concierto");
 		btnEstatistics = new JButton("Recomendar Unica");
-		lSongRe = new JLabel("Recomendadas: ");
 		
 		btnInitServer.setActionCommand("Init");
 		btnInitServer.addActionListener(event);
